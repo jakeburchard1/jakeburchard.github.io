@@ -19,6 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
+
+
+
 I am a PhD candidate in the Department of Sociology at the University of Chicago.
 
 Click on the links above to learn more about my research, download my CV, or contact me.
