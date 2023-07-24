@@ -26,6 +26,7 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
+              width=30%
               alt=page.profile.image -%}
             {% endif -%}
             {%- if page.profile.address %}
@@ -37,10 +38,6 @@ layout: default
           {%- endif %}
 
           <div class="clearfix">
-
-
-
-            
             {{ content }}
           </div>
 
