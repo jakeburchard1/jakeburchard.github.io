@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /research/
+title: research
 description: 
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 Under Construction
