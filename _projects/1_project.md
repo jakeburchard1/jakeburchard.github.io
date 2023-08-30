@@ -4,7 +4,7 @@ title: Two-Mode Networks
 description: 
 img: assets/img/tm_ego.png
 importance: 2
-related_publications: 
+related_publications: Burchard18, Burchard19
 ---
 
 <h3>Structural Cohesion and Embeddedness in Two-Mode Networks</h3>
