@@ -6,74 +6,12 @@ img: assets/img/curvature.png
 importance: 3
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<h3>The Curved Geometry of Social Life: Manifolds of Opportunity underlying Networks of Interaction</h3>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/curvature.png" title="two-mode network" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<b>Abstract: </b>Recent research on social networks contrasts classical work that derives metrics from the discrete topology of network ties with emercomputationally learned continuous spaces consistent with current ties for predicting future ones. In this paper, we theorize the independent ontology and value of discrete network ties and curved manifolds built from them, where network topologies trace social interaction, and continuous manifolds the space of hidden and likely interactions. Then we introduce a unified, geometric characterization of system-level structure in social networks that simplifies description while improving prediction of system-level network processes. Specifically, we view nodes in graphs as being embedded in a latent manifold, where geometric curvature of the manifold shapes interaction patterns. Network regions embedded in positive curvature manifest dense thickets of ties through which information pools and cycles; regions embedded in negative curvature are characterized by sparse ties representing ridges over which information spreads and flows. In this way, curvature combines local and global perspectives, providing a continuous characterization of network structure that eliminates the need for discrete distinctions between roles and communities to enable accurate modeling of system-level processes like network evolution and information diffusion with increased accuracy. We develop statistical tests for network curvature estimation, show how they link and validate emerging approaches to curvature measurement in discrete mathematics and machine learning, and demonstrate the utility of our approach for characterizing social networks, predicting network evolution and deepening geometric understanding of social constraint using simulated and observed networks across domains of multi-ethnic community life, adolescent school interactions, and scientific innovation.
