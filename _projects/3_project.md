@@ -2,7 +2,7 @@
 layout: page
 title: Social Network Curvature
 description:
-img: assets/img/curvature.pdf
+img: assets/img/curvature.png
 importance: 3
 ---
 
