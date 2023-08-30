@@ -1,11 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Financialization and Class Politics
+description:
+img: assets/img/dendro.png
+importance: 1
 ---
 
 Every project has a beautiful feature showcase page.

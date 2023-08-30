@@ -3,8 +3,7 @@ layout: page
 title: Two-Mode Networks
 description: 
 img: assets/img/tm_ego.png
-importance: 1
-category: work
+importance: 2
 related_publications: 
 ---
 
